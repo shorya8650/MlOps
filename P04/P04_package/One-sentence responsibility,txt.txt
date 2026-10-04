@@ -1,0 +1,16 @@
+One-sentence responsibility for each module
+Module Responsibilities – Practical 04
+
+__init__.py – Initializes the delivery package and exposes its main functions.
+
+data.py – Loads the delivery dataset and splits it into training and testing data.
+
+features.py – Contains feature-related functions used for delivery prediction.
+
+model.py – Trains, evaluates, saves, and loads the delivery prediction model.
+
+validate.py – Checks whether a delivery order contains valid values.
+
+train.py – Trains the delivery prediction model and saves it to disk.
+
+predict.py – Loads the saved model and predicts delivery time for a new order.
